@@ -521,9 +521,9 @@ body::after {
   content: "";
   position: absolute;
   left: 150%;
-  top: -100%;
+  top: -200%;
   width: 15.625rem;
-  height: 300%;
+  height: 500%;
   margin-left: -3.125rem;
   background: #151414
 }
@@ -730,9 +730,9 @@ body::after {
   background: #1fd372;
   width: 23.75rem;
   height: 19.375rem;
-  z-index: -1;
-  -webkit-filter: blur(150px);
-  filter: blur(150px);
+  z-index: 2;
+  -webkit-filter: blur(100px);
+  filter: blur(100px);
   pointer-events: none
 }
 .steps__item {
